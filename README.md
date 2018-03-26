@@ -1,17 +1,11 @@
-# ember-cli-pace
+# ember-cli-pace-gs
 
-This README outlines the details of collaborating on this Ember addon.
+Ember.js plugin based on Pace http://github.hubspot.com/pace/docs/welcome/ 
+This is a fork of outdated https://github.com/praya/ember-cli-pace repo.
 
 ## Installation
 
-* `git clone <repository-url>` this repository
-* `cd ember-cli-pace`
-* `npm install`
-
-## Running
-
-* `ember serve`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
+* `npm install ember-cli-pace-gs`
 
 ## Running Tests
 
