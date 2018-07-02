@@ -1,17 +1,17 @@
 {
   "name": "ember-cli-pace-gs",
   "version": "1.1.4",
-  "description": "The default blueprint for ember-cli addons.",
+  "description": "Pace.js load progress bar for Ember apps.",
   "keywords": [
     "ember-addon"
   ],
   "license": "MIT",
-  "author": "",
+  "author": "praya",
   "directories": {
     "doc": "doc",
     "test": "tests"
   },
-  "repository": "",
+  "repository": "https://github.com/praya/ember-cli-pace-gs",
   "scripts": {
     "build": "ember build",
     "lint:js": "eslint ./*.js addon addon-test-support app config lib server test-support tests",
