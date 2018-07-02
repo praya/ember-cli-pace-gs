@@ -1,6 +1,6 @@
 {
   "name": "ember-cli-pace-gs",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "description": "Pace.js load progress bar for Ember apps.",
   "keywords": [
     "ember-addon"
