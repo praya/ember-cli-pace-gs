@@ -1,6 +1,6 @@
 {
   "name": "ember-cli-pace-alyne",
-  "version": "1.1.7",
+  "version": "1.1.8",
   "description": "Pace.js load progress bar for Ember apps (built by praya)",
   "keywords": [
     "ember-addon"
