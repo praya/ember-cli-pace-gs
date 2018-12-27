@@ -110,10 +110,8 @@ module.exports = {
         addonScript;
 
       if (this.app.env === 'production') {
-        paceScript = UglifyJS.minify(fs.readFileSync(paceScriptPath, 'utf8'))
-          .code;
-        addonScript = UglifyJS.minify(fs.readFileSync(addonScriptPath, 'utf8'))
-          .code;
+        paceScript = UglifyJS.minify(paceScriptPath).code;
+        addonScript = UglifyJS.minify(addonScriptPath).code;
       } else {
         paceScript = fs.readFileSync(paceScriptPath, 'utf8');
         addonScript = fs.readFileSync(addonScriptPath, 'utf8');
