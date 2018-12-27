@@ -1,8 +1,10 @@
 {
   "name": "ember-cli-pace-gs",
-  "version": "1.1.6",
+  "version": "1.1.7",
   "description": "Pace.js load progress bar for Ember apps (built by praya)",
-  "keywords": ["ember-addon"],
+  "keywords": [
+    "ember-addon"
+  ],
   "license": "MIT",
   "author": "",
   "directories": {
@@ -12,8 +14,7 @@
   "repository": "https://github.com/alyne/ember-cli-pace-gs",
   "scripts": {
     "build": "ember build",
-    "lint:js":
-      "eslint ./*.js addon addon-test-support app config lib server test-support tests",
+    "lint:js": "eslint ./*.js addon addon-test-support app config lib server test-support tests",
     "start": "ember serve",
     "test": "ember try:each"
   },
