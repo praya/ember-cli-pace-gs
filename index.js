@@ -90,8 +90,12 @@ module.exports = {
           paceScript, addonScript;
 
       if (this.app.env === 'production') {
-        paceScript = UglifyJS.minify(paceScriptPath).code;
-        addonScript = UglifyJS.minify(addonScriptPath).code;
+        paceScript = UglifyJS.minify(
+          fs.readFileSync(paceScriptPath, 'utf8')
+        ).code;
+        addonScript = UglifyJS.minify(
+          fs.readFileSync(addonScriptPath, 'utf8')
+        ).code;
       } else {
         paceScript = fs.readFileSync(paceScriptPath, 'utf8');
         addonScript = fs.readFileSync(addonScriptPath, 'utf8');
